@@ -9,7 +9,7 @@ trigger:
 pool: testagent
 
 
-steps: Settings
+steps: 
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
